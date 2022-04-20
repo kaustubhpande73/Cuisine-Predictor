@@ -100,3 +100,23 @@ Here, I used the Cosine Similarity to find the closest 5 recipies to the predict
         3. Recipe Id: 21651 (0.11785113019775795)
         4. Recipe Id: 41346 (0.0468292905790847)
         5. Recipe Id: 17172 (0.0936585811581694)
+
+# Tests
+I have added test cases for:
+1. Getting data from json
+2. Predicting cuisine
+3. Similarity
+All the tests are added in the tests folder
+
+# Running the Code
+The code can be run by using the below command. To add each ingresdient, use --ingredient and add each. For adding ingredients with two or more words, use quotes, like 'hot dog'
+
+            pipenv run python project3/predictor.py --ingredient  
+       
+ # Links used for reference
+ 1. https://www.stackvidhya.com/train-test-split-using-sklearn-in-python/
+ 2. https://www.datasciencelearner.com/sklearn-cosine-similarity-implementation/
+ 3. https://www.geeksforgeeks.org/numpy-where-in-python/
+ 4. https://leonlok.co.uk/blog/finding-similar-names-using-cosine-similarity/
+ 5. https://www.geeksforgeeks.org/numpy-argsort-in-python/
+ 6. https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html
