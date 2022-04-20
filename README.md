@@ -112,6 +112,7 @@ All the tests are added in the tests folder
 The code can be run by using the below command. To add each ingresdient, use --ingredient and add each. For adding ingredients with two or more words, use quotes, like 'hot dog'
 
             pipenv run python project3/predictor.py --ingredient  
+ I have also used jupyter notebook for testing the code
        
  # Links used for reference
  1. https://www.stackvidhya.com/train-test-split-using-sklearn-in-python/
