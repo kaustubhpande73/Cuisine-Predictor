@@ -52,7 +52,7 @@ def predict(ingredients, vector, model):
     
     pred = model.predict(ip)
     
-    ipr = {'Id' : 'input', 'Cuisine' : pred[0], 'Ingredients' : new_ing[0]}
+    ipr = {'Id' : 'User_input', 'Cuisine' : pred[0], 'Ingredients' : new_ing[0]}
     print('Cuisine predicted based on the input ingredients: '+ pred[0])
     
 
