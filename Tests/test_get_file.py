@@ -1,7 +1,3 @@
-
-
-
-
 import json
 import pandas as pd
 import spacy
@@ -16,7 +12,7 @@ nlp = spacy.load('en_core_web_lg')
 import re
 from sklearn.metrics.pairwise import cosine_similarity
 import argparse
-
+import Project2
 
 
 data_file = 'yummly.json'
