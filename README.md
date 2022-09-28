@@ -1,4 +1,3 @@
-# cs5293sp22project2
 # Cuisine Predictor
 *Project by Kaustubh Pande*
 
