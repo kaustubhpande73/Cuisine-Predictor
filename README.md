@@ -1,7 +1,7 @@
 # Cuisine Predictor
 *Project by Kaustubh Pande*
 
-In this project, we were given a dataset of cuisines and ingredients, and we had to make a predictor which on entering ingredients, will predict the cuisine and also give the 5 closest cuisines to the predicted one. 
+In this project, I used a dataset of cuisines and ingredients to make a predictor which on entering ingredients, will predict the cuisine and also give the 5 closest cuisines to the predicted one.
 
 I have done this project in 4 stages:
 1. Reading the json file and loading it in a dataframe
